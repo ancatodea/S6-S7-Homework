@@ -1,0 +1,13 @@
+body {
+  margin: 0 ;
+}
+
+header, footer {
+  background-color: rgb(24, 31, 76);
+  color: white;
+}
+
+.lista-cursuri a {
+  text-decoration-color: chocolate;
+  text-decoration-thickness: 2px;
+}
