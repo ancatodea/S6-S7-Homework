@@ -6,8 +6,48 @@ header, footer {
   background-color: rgb(24, 31, 76);
   color: white;
 }
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.pages {
+  display: flex;
+}
+
+.pages p {
+  padding: 3px 10px;
+}
+
+main {
+  padding: 0 170px 300px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.lista-cursuri {
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+}
+
+.programare {
+  padding-bottom: 50px;
+}
 
 .lista-cursuri a {
-  text-decoration-color: chocolate;
-  text-decoration-thickness: 2px;
+  margin-right: 20px;
+  padding-right: 150px;
+  color: black;
+  border-bottom: 2px solid chocolate;
+  text-decoration: none;
+}
+
+.lista-cursuri a:hover {
+  color: chocolate;
 }
